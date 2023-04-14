@@ -1,0 +1,43 @@
+.TitleConatiner {
+  position: relative;
+  margin-left: 135px;
+  margin-top: 228px;
+  z-index: 3;
+}
+.title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #eef4f9;
+  margin-bottom: 24px;
+}
+
+.subTitle {
+  font-weight: 400;
+  font-size: 64px;
+  color: #eef4f9;
+  width: 590px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .TitleConatiner {
+    position: relative;
+    margin-left: 25px;
+    margin-top: 180px;
+  }
+  .title {
+    font-weight: 400;
+    font-size: 14px;
+    color: #f9f4ee;
+    margin-bottom: 15px;
+  }
+
+  .subTitle {
+    font-weight: 400;
+    font-size: 46px;
+    color: #eef4f9;
+    width: 340px;
+    text-transform: capitalize;
+    color: #eef4f9;
+  }
+}
